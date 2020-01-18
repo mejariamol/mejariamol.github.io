@@ -1,62 +1,24 @@
-* {
-  margin: 0;
-  padding: 0:
-  box-sizing: border-box;
+@media (min-width: 768px) {
+  .border-md-left {
+    border-left: 1px solid #eee;
+  }
+  .border-md-right {
+    border-right: 1px solid #eee;
+  }
+
+  .light-border-md-left {
+    border-left: 0.25rem solid #fff;
+  }
+  .light-border-md-right {
+    border-right: 0.25rem solid #fff;
+  }
 }
 
-.header {
-  color: #bdbdbd;
-  position: fixed;
-  top:0;
-  left: 0;
-  height: 80px;
-  width: 100%;
-  background-image: url("images/black.jpg");
-  z-index: 1;
+a {
+  text-decorations: none;
+  color: inherit;
 }
 
-.footer {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  text-align: center;
-}
-
-.first-page {
-  position: relative;
-  background-image: url("images/black.jpg");
-  height: 100vh;
-  color: #bdbdbd;
-  z-index: 2;
-} 
-
-.second-page {
-  position: relative;
-  height: 100vh;
-  padding-top: 80px;
-}
-
-.third-page {
-  position: relative;
-  height: 100vh;
-  padding-top: 80px;
-}
-
-.content-center {
-  text-align: center;
-  padding-left: 25%;
-  padding-right: 25%;
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  -ms-transform: translate(0%, -50%);
-  transform: translate(0%, -50%);
-}
-
-.center-container {
-  position: absolute;
-  width: 50%;
-  top: 50%;
-  -ms-transform: translate(0%, -50%);
-  transform: translate(0%, -50%);
+.work-card {
+  background: #fafafa;
 }
