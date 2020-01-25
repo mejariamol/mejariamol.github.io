@@ -12,6 +12,11 @@
   .border-light-md-right {
     border-right: 0.12rem solid #fff;
   }
+
+  .blockquote-md {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+  }
 }
 
 a {
